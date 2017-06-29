@@ -28,3 +28,7 @@ Since in this version we don't have yet scripts to do it, we need to run the app
 * **Multiplication, Gamification, Service Registry and Gateway**. You need to start all these services using the command line. Navigate to each folder and execute for every one of them: `./mvnw spring-boot:run`. If you want to try load balancing you can execute more than one instance of the Multiplication or Gamification service. To do that, override the port number to avoid clashing: `./mvnw spring-boot:run -Drun.arguments="--server.port=A_FREE_PORT]"`
 
 ![Application - version 8](resources/logical_view_v8.png)
+
+## Do you want to know more?
+
+If you want more details about the different application parts and how to get there from scratch, you can buy the book if you don't have it yet: [Microservices - The Practical Way](https://leanpub.com/microservices-thepracticalway)
