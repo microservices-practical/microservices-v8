@@ -3,6 +3,12 @@
 This project contains the version 8 of the application that is developed under the scope of the book Microservices - The Practical Way. 
 You can get a copy of the book on [Leanpub](https://leanpub.com/microservices-thepracticalway).
 
+## Idea
+
+These projects, included in [Microservices-Practical repositories](https://github.com/microservices-practical), illustrate how to start an application from scratch and then evolve it to become a full microservices environment.
+
+This version introduces Load Balancing with Ribbon, configured to detect services that are down through a `PingUrl` and combined with an `AvailabilityFilteringRule`.
+
 ## Contents
 
 The repository contains five folders, one for each component of the system:
