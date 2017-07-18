@@ -1,6 +1,5 @@
 package microservices.book.multiplication.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -32,7 +31,6 @@ public final class MultiplicationResultAttempt {
     private final Multiplication multiplication;
     private final int resultAttempt;
 
-    @JsonIgnore
     private final boolean correct;
 
     // Empty constructor for JSON (de)serialization

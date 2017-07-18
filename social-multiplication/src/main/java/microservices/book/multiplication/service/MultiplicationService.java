@@ -15,10 +15,10 @@ public interface MultiplicationService {
     Multiplication createRandomMultiplication();
 
     /**
-     * @return true if the attempt matches the result of the
-     *         multiplication, false otherwise.
+     * @return a {@link MultiplicationResultAttempt}, which contains information about the attempt and
+     * indicates if it's correct or not.
      */
-    boolean checkAttempt(final MultiplicationResultAttempt resultAttempt);
+    MultiplicationResultAttempt checkAttempt(final MultiplicationResultAttempt resultAttempt);
 
     /**
      * Gets the statistics for a given user.
