@@ -4,7 +4,7 @@ This project contains the version 8 of the application that is developed under t
 
 ## About this version
 
-This version contains three projects: 
+This version contains four projects: 
 * **gamification** and **social-multiplication** are our microservices already created and evolved in previous versions. 
 * **ui** contains the web pages and javascript of our application, within an independently deployable component.
 * **gateway** contains the Spring Boot Application that models the API Gateway in our system, using Zuul.
