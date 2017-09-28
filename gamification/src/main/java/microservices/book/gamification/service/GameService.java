@@ -4,8 +4,6 @@ import microservices.book.gamification.domain.GameStats;
 
 /**
  * This service includes the main logic for gamifying the system.
- *
- * @author moises.macero
  */
 public interface GameService {
 

@@ -51,7 +51,7 @@ public class UserStatsControllerTest {
 
         // when
         MockHttpServletResponse response = mvc.perform(
-                get("/1/stats")
+                get("/stats?userId=1")
                         .accept(MediaType.APPLICATION_JSON))
                 .andReturn().getResponse();
 
