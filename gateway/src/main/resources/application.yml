@@ -17,6 +17,10 @@ zuul:
       path: /leaders/**
       serviceId: gamification
       strip-prefix: false
+    stats:
+      path: /stats/**
+      serviceId: gamification
+      strip-prefix: false
 
 endpoints:
   routes:
