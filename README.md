@@ -1,7 +1,8 @@
-# Microservices - The Practical Way - v8
+# Learn Microservices with Spring Boot - v8
 
-This project contains the version 8 of the application that is developed under the scope of the book Microservices - The Practical Way. 
-You can get a copy of the book on [Leanpub](https://leanpub.com/microservices-thepracticalway).
+This project contains the version 8 of the application that is developed under the scope of the book *Learn Microservices with Spring Boot*. You can get a copy of the book on [Amazon](http://amzn.to/2FSB2ME) or [Apress](http://www.apress.com/book/9781484231647).
+
+The book shows you how to evolve a simple Spring Boot application to become a full Microservices Architecture, using Spring Cloud Eureka, Ribbon, Zuul and Hystrix to implement Service Discovery, Load Balancing, the API Gateway pattern and a Circuit Breaker. Besides, you'll learn how to implement End-to-End tests with Cucumber, an Event-Driven system and the best practices when building Microservices.
 
 ## Idea
 
@@ -31,4 +32,4 @@ Since in this version we don't have yet scripts to do it, we need to run the app
 
 ## Do you want to know more?
 
-If you want more details about the different application parts and how to get there from scratch, you can buy the book if you don't have it yet: [Microservices - The Practical Way](https://leanpub.com/microservices-thepracticalway)
+If you want more details about the different application parts and how to get there from scratch, you can buy the book if you don't have it yet: *Learn Microservices with Spring Boot* on [Amazon](http://amzn.to/2FSB2ME) or [Apress](http://www.apress.com/book/9781484231647)
